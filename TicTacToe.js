@@ -22,11 +22,13 @@ let winCases = [
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
         if(turnX){
+            box.setAttribute("style", "color: #F4B9B2")
             box.innerText = "X";
             turnX = false;
             playerMsg.innerText = "Player O's turn";
         }
         else{
+            box.setAttribute("style", "color: #4B3B40")
             box.innerText = "O";
             turnX = true;
             playerMsg.innerText = "Player X's turn";
