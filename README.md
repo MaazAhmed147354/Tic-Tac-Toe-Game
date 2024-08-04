@@ -1,1 +1,1 @@
-# This is my local repo.
+# This is Tic Tac Toe game created using HTML, CSS & JS.
